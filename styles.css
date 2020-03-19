@@ -1,0 +1,56 @@
+
+*/.border{
+border: solid;
+width: 450px;
+padding: 20px;
+}
+
+.head{
+	color: red;
+	text-align: center;
+}
+.form{
+	margin:auto;
+	width: 200px;
+}
+
+table, th, td{
+
+	border:1px solid black;
+	width: 450px;
+}
+
+.chant{
+	padding-bottom: 50px;
+}
+
+.footer{
+
+position:fixed;
+left:0;
+bottom: 0;
+width: 100%;
+background: gray;
+color: white;
+text-align: center;
+}
+
+.footer ul, .nav ul{
+	display:inline;
+	list-style-type: none;
+	margin-bottom: 2px;
+	padding:1px;
+}
+
+.footer li, .nav li{
+
+	display:inline-block;
+	margin: 2px;
+}
+
+.footer a, .nav a{
+	color:white;
+	background-color: black;
+	margin: .5px;
+}
+
