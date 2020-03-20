@@ -1,105 +1,102 @@
-html{
+html {
 }
 
-body{
-	font-family: 'Rubik', sans-serif;
-	position: relative;
+body {
+  font-family: 'Rubik', sans-serif;
+  position: relative;
 }
 
-.bodybg{
-background-image:url(https://www.cscwildcats.com/images/2018-19/TRACK031619.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-height: 100vh;
--webkit-animation: kenburns-bottom-right 30s ease-out infinite both;
-	    animation: kenburns-bottom-right 30s ease-out infinite both;
-position: absolute;
-top: 0;
-left: 0;
-z-index: 0;
-width: 100%;
+.bodybg {
+  background-image: url(https://www.cscwildcats.com/images/2018-19/TRACK031619.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  -webkit-animation: kenburns-bottom-right 30s ease-out infinite both;
+  animation: kenburns-bottom-right 30s ease-out infinite both;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
 }
 
-.jippic{
-	border-radius: 10px;
-	box-shadow: 10px 10px 10px 5px darkgray;
+.jippic {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 5px darkgray;
 }
 
-.border{
-	border: solid;
-	width: 500px;
-	padding: 20px;
-	position: relative;
-	margin-top: 50px;
+.border {
+  border: solid;
+  width: 500px;
+  padding: 20px;
+  position: relative;
+  margin-top: 50px;
 }
 
-h3{
-	margin:0px;
-}
-.head{
-	color: black;
-	text-align: center;
-	font-family: 'Poppins', sans-serif;
-
-}
-.form{
-	margin:auto;
-	width: 200px;
+h3 {
+  margin: 0px;
 }
 
-.button{
-	font-size: 16px;
-	border-radius: 8px;
-	box-shadow: 10px 8px 5px;
-	transition-duration: 0.3s;
-
+.head {
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
-.button:hover{
-	background-color: red;
+.form {
+  margin: auto;
+  width: 200px;
 }
 
-table, th, td{
-
-	border:4px solid black;
-	width: 500px;
-	border-collapse: collapse;
+.button {
+  font-size: 16px;
+  border-radius: 8px;
+  box-shadow: 10px 8px 5px;
+  transition-duration: 0.3s;
 }
 
-.chant{
-	padding-bottom: 50px;
+.button:hover {
+  background-color: red;
 }
 
-.footer{
-
-position:fixed;
-left:0;
-bottom: 0;
-width: 100%;
-background: gray;
-color: white;
-text-align: center;
+table, th, td {
+  border: 4px solid black;
+  width: 500px;
+  border-collapse: collapse;
 }
 
-.footer ul, .nav ul{
-	display:inline;
-	list-style-type: none;
-	margin-bottom: 2px;
-	padding:1px;
-	position: relative;
+.chant {
+  padding-bottom: 50px;
 }
 
-.footer li, .nav li{
-
-	display:inline-block;
-	margin: 2px;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: gray;
+  color: white;
+  text-align: center;
 }
 
-.footer a, .nav a{
-	color:white;
-	background-color: black;
-	margin: .5px;
-	text-decoration: none;
+.footer ul, .nav ul {
+  display: inline;
+  list-style-type: none;
+  margin-bottom: 2px;
+  padding: 1px;
+  position: relative;
+}
+
+.footer li, .nav li {
+  display: inline-block;
+  margin: 2px;
+}
+
+.footer a, .nav a {
+  color: white;
+  background-color: black;
+  margin: .5px;
+  text-decoration: none;
 }
 
 /* ----------------------------------------------
@@ -117,28 +114,31 @@ text-align: center;
 @-webkit-keyframes kenburns-bottom-right {
   0% {
     -webkit-transform: scale(1) translate(0, 0);
-            transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0);
     -webkit-transform-origin: 84% 84%;
-            transform-origin: 84% 84%;
+    transform-origin: 84% 84%;
   }
+
   100% {
     -webkit-transform: scale(1.25) translate(20px, 15px);
-            transform: scale(1.25) translate(20px, 15px);
+    transform: scale(1.25) translate(20px, 15px);
     -webkit-transform-origin: right bottom;
-            transform-origin: right bottom;
+    transform-origin: right bottom;
   }
 }
+
 @keyframes kenburns-bottom-right {
   0% {
     -webkit-transform: scale(1) translate(0, 0);
-            transform: scale(1) translate(0, 0);
+    transform: scale(1) translate(0, 0);
     -webkit-transform-origin: 84% 84%;
-            transform-origin: 84% 84%;
+    transform-origin: 84% 84%;
   }
+
   100% {
     -webkit-transform: scale(1.25) translate(20px, 15px);
-            transform: scale(1.25) translate(20px, 15px);
+    transform: scale(1.25) translate(20px, 15px);
     -webkit-transform-origin: right bottom;
-            transform-origin: right bottom;
+    transform-origin: right bottom;
   }
 }
